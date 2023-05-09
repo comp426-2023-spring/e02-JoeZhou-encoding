@@ -9,15 +9,16 @@
         <header>
             <h1>jiandaoshitoubu</h1>
         </header>
-        <div id="userinput" action="/submit">
+        <form id="userinput" action="/submit">
             <input type="checkbox" name="rps" id="rps">
             <label class="home">RPS</label>
             <input type="checkbox" name="rpsls" id="rpsls">
             <label class="home">RPSLS</label>
             <input type="checkbox" name="opponent" id="opponent">
             <label class="home">Opponent or not</label>
+            <button type="submit">submit</button>
             <br><br>
-        </div>
+        </form>
         <button type="button" id="play" onclick="start()">Start</button>
         <br><br>
         <form>
@@ -26,7 +27,7 @@
         </form>
         <div id="playButton" >
             <button type="button" id="rules" onclick="help()">Rules</button>
-            <button type="button" id="rules" onclick="help()">help</button>
+            <button type="button" id="rules1" onclick="help()">help</button>
         </div>
     </body>
 </html>
