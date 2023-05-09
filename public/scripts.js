@@ -17,6 +17,7 @@ function rpsN() {
         .catch(error => console.error(error));
 }
 
+
 function rpslsN() {
     const url = "/app/rpsls"
     return response = fetch(url)
