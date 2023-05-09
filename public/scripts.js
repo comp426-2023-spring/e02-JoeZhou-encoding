@@ -18,6 +18,7 @@ function rpsN() {
 }
 
 
+
 function rpslsN() {
     const url = "/app/rpsls"
     return response = fetch(url)
