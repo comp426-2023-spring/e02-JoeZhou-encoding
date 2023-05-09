@@ -44,7 +44,6 @@ function rpsO(shot) {
 
 
 
-
 function rpslsO(shot) {
     const url = "/app/rpsls/play/" + shot
     return response = fetch(url)
