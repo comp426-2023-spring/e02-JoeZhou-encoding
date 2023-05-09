@@ -1,5 +1,4 @@
 header{
-    background-color: rgb(177, 74, 55);
     text-align: center;
 }
 
@@ -30,6 +29,7 @@ input[type=text]{
 .invisible{
     display: none;
 }
+
 
 body{
     font-size: medium;

@@ -1,36 +1,28 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>RPS with Opponent</title>
+        <title>FA-1</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <script src="scripts.js"></script>
     </head>
     <body>
-        <h2>Pick your shot!</h2>
+        <h2>Select one of the options</h2>
         <br><br>
-        <button type="button" class="shot" onclick="rpsls('paper')">Paper</button>
+        <button type="button" onclick="rpsls('paper')">Paper</button>
+        <button type="button" onclick="rpsls('rock')">Rock</button>
+        <button type="button" onclick="rpsls('scissors')">Scissors</button>
+        <button type="button" onclick="rpsls('lizard')">Lizard</button>
+        <button type="button" onclick="rpsls('spock')">Spock</button>
         <br><br>
-        <button type="button" class="shot" onclick="rpsls('rock')">Rock</button>
-        <br><br>
-        <button type="button" class="shot" onclick="rpsls('scissors')">Scissors</button>
-        <br><br>
-        <button type="button" class="shot" onclick="rpsls('lizard')">Lizard</button>
-        <br><br>
-        <button type="button" class="shot" onclick="rpsls('spock')">Spock</button>
-        <br><br><br>
         <form class="rpsls">
-            <label class="game">You: </label>
+            <label class="game">Player: </label>
             <input type="text" id="rpsls-player-shot" readonly>
-            <br><br>
             <label class="game">Opponent</label>
             <input type="text" id="rpsls-opponent-shot" readonly>
-            <br><br>
             <label class="game">Result: </label>
             <input type="text" id="rpsls-result" readonly>
-            <br><br>
-            <button type="submit" class="invisible">invisible</button>
         </form>
-        <button type="button" class="function" onclick="home()">Reset</button>
+        <button type="button" onclick="home()">again</button>
         <br><br>
     </body>
 </html>

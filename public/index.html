@@ -1,34 +1,32 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Paper Rock Scissors</title>
+        <title>FA</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <script src="scripts.js"></script>
     </head>
     <body>
         <header>
-            <h1>Rock Paper Scissor</h1>
+            <h1>jiandaoshitoubu</h1>
         </header>
-        <form id="userinput" action="/submit">
+        <div id="userinput" action="/submit">
             <input type="checkbox" name="rps" id="rps">
-            <label class="home">Play Rock, Paper, Scissors?</label>
-            <br><br>
+            <label class="home">RPS</label>
             <input type="checkbox" name="rpsls" id="rpsls">
-            <label class="home">Play Rock, Paper, Scissors, Lizard, Spock?</label>
-            <br><br>
+            <label class="home">RPSLS</label>
             <input type="checkbox" name="opponent" id="opponent">
-            <label class="home">Playing against an opponent?</label>
+            <label class="home">Opponent or not</label>
             <br><br>
-            <button type="submit" class="invisible">invisible</button>
-        </form>
-        <button type="button" class="function" id="play" onclick="play()">Play game!</button>
-        <button type="button" class="function" id="rules" onclick="viewRules()">View rules</button>
+        </div>
+        <button type="button" id="play" onclick="start()">Start</button>
         <br><br>
-        <h2>No Opponent Game</h2>
         <form>
             <input type="text" class="display" id="no-opponent" readonly>
             <br>
-            <button type="submit" class="invisible">invisible</button>
         </form>
+        <div id="playButton" >
+            <button type="button" id="rules" onclick="help()">Rules</button>
+            <button type="button" id="rules" onclick="help()">help</button>
+        </div>
     </body>
 </html>
