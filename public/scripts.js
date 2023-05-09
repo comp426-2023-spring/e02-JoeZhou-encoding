@@ -29,6 +29,7 @@ function rpslsN() {
         .catch(error => console.error(error));
 }
 
+
 function rpsO(shot) {
     const url = "/app/rps/play/" + shot
     return response = fetch(url)
